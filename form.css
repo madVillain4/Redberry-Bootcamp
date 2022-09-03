@@ -80,7 +80,7 @@ body {
   border: 2px solid #8ac0e2;
   border-radius: 10px;
   padding: 9px 24px;
-  height: 42px;
+  height: 38px;
 }
 .mr-21 {
   margin-right: 21px;
@@ -154,4 +154,30 @@ body {
 }
 .underline-hidden {
   background-color: transparent;
+}
+.radio2 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  color: #000000;
+}
+.justify-center {
+  justify-content: center;
+}
+.flex {
+  display: flex;
+}
+hr {
+  height: 2px;
+  background-color: black;
+  border-color: black;
+
+  /* შავი/200 */
+  border: 1px solid #c7c7c7;
+}
+.price {
+  display: flex;
+  flex-direction: column;
 }
