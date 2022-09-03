@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--employee info html-->
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>თანამშრომლის ინფორმაცია</title>
+
+    <link rel="stylesheet" href="/Bootcamp/emp_info.css">
+  </head>
+
+  <body>
+    <header>
+      <div>
+        <a href="/Bootcamp/Landing_page.html"> <img class="back_button" src="/icons/PCfy/Group 4.png" alt="back">
+        </a>
+      </div>
+      <section>
+        <div class="flex_container">
+          <div class="header_nav1">
+            <span class="text">
+              თანამშრომლის ინფო
+              <div class="underline"></div>
+            </span>
+          </div>
+
+
+          <div class="header_nav2">
+            <a class="text" href="/Bootcamp/pc_info.html">
+              ლეპტოპის მახასიათებლები
+              <div class="underline underline-hidden"></div>
+            </a>
+          </div>
+        </div>
+
+      </section>
+    </header>
+
+    <form action="/Bootcamp/pc_info.html" method="get">
+      <section class="main_content">
+        <div class="row">
+          <label class="column half mr-21"><span class="label">სახელი</span> <input class="input" type="text"
+              name="name" placeholder="გრიშა" />
+            <span class="hint">მინიმუმ 2 სიმბოლო, ქართული ასოები</span>
+          </label>
+
+          <label class="column half ml-21"> <span class="label">გვარი</span> <input class="input" type="text"
+              name="name" placeholder="ბაგრატიონი" />
+            <span class="hint">მინიმუმ 2 სიმბოლო, ქართული ასოები</span>
+          </label>
+        </div>
+
+        <div class="row">
+          <label class="column grow">
+            <select class="custum_select" name="team-position">
+              <option class="position" value="">თიმი</option>
+              <option class="position" value="1">დეველოპერი</option>
+              <option class="position" value="2">HR</option>
+              <option class="position" value="3">გაყიდვები</option>
+              <option class="position" value="4">დიზაინი</option>
+              <option class="position" value="5">მარკეგინგი</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="row">
+          <label class="column grow">
+            <select class="custum_select" name="team-position">
+              <option value="">პოზიცია</option>
+              <option value="1">ინტერნი</option>
+              <option value="2">HR ბიზნეს დეველოპერი</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="row">
+          <label class="column grow">
+            <span class="label">მეილი</span>
+            <input class="input" type="text" name="mail" placeholder="grish666@redberry.ge" />
+            <span class="hint">უნდა მთავრდებოდეს @redberry.ge-ით</span>
+          </label>
+        </div>
+
+        <div class="row">
+          <label class="column grow">
+            <span class="label">ტელეფონის ნომერი</span>
+            <input class="input" type="text" name="mobile" placeholder="+995 598 00 07 01" />
+            <span class="hint">უნდა აკმაყოფილებდეს ქართული მობ-ნომრის ფორმატს</span>
+          </label>
+        </div>
+
+        <div class="row flex-end">
+          <button class="submit" type="submit">შემდეგი</button>
+        </div>
+      </section>
+    </form>
+
+    <footer>
+      <img class="bootcamp_logo" src="/icons/PCfy/LOGO-10 2.png" alt="bootcamp logo">
+    </footer>
+  </body>
+
+</html>
