@@ -1,89 +1,45 @@
 body {
   background-color: white;
-  text-align: center;
-}
-
-.first {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 18px 60px;
-  gap: 20px;
-
-  position: absolute;
-  width: 387px;
-  height: 60px;
-  left: calc(50% - 387px / 2 - 0.5px);
-  top: 787px;
-
-  background: #62a1eb;
-  border-radius: 8px;
-  width: 223px;
-  height: 24px;
-
-  font-family: "Helvetica Neue";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  text-decoration: none;
-
-  color: #ffffff;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-.second {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 18px 60px;
-  gap: 20px;
-
-  position: absolute;
-  width: 3874px;
-  height: 60px;
-  left: calc(50% - 387px / 2 - 0.5px);
-  top: 873px;
-
-  background: #62a1eb;
-  border-radius: 8px;
-  width: 178px;
-  height: 24px;
-
-  font-family: "Helvetica Neue";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  text-decoration: none;
-
-  color: #ffffff;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-.logo {
-  position: absolute;
-  width: 112px;
-  height: 18px;
-  left: calc(50% - 112px / 2);
-  top: 79px;
-}
-.icon {
-  position: absolute;
-  width: 781px;
-  height: 482px;
-  top: 182px;
 }
 .wrap {
-  text-align: left;
-  width: 800px;
+  max-width: 800px;
   margin: 0 auto;
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo {
+  max-width: 112px;
+  width: 100%;
+  margin-top: 79px;
+}
+.icon {
+  margin-top: 85px;
+  width: 100%;
+}
+.first {
+  margin-top: 123px;
+}
+.second {
+  margin-top: 26px;
+}
+.btn-link {
+  padding: 18px 60px;
+  height: 60px;
+  background: #62a1eb;
+  border-radius: 8px;
+  text-decoration: unset;
+  box-sizing: border-box;
+
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+
+  min-width: 329px;
+  text-align: center;
 }

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ლეპტოპის ტექნიკური მახასიათებლები</title>
+  </head>
+
+  <body>
+    <!--navbar-->
+    <form action="/Bootcamp/pc_info.html">
+      <header>
+        <div>
+          <a href="/Bootcamp/Landing_page.html"> <img class="back_button" src="/icons/PCfy/Group 4.png" alt="back">
+          </a>
+        </div>
+        <section>
+          <div class="flex_container">
+            <div class="header_nav header_nav1"><a href="/Bootcamp/emp_info.html">თანამშრომლის ინფო</a></div>
+
+
+            <div class="header_nav header_nav2"><a href="/Bootcamp/pc_info.html">ლეპტოპის მახასიათებლები</a>
+            </div>
+          </div>
+
+        </section>
+      </header>
+
+      <section>
+        <label>ატვირთე <input type="file" name="file" /></label>
+
+
+        <div class="container">
+          <div class="title">ლეპტოპის სახელი</div>
+          <form action="#">
+            <div class="user-details">
+
+              <input type="text" placeholder="HP" required>
+
+            </div>
+            <label>
+              <select name="referrer">
+                <option value="">ლეპტოპის ბრენდი</option>
+                <option value="1">HP</option>
+                <option value="2">Dell</option>
+                <option value="3">Microsoft</option>
+                <option value="4">Apple</option>
+                <option value="5">Lenovo</option>
+                <option value="6">Acer</option>
+              </select>
+            </label>
+
+            <label>
+              <select name="referrer">
+                <option value="">CPU</option>
+                <option value="1">Intel Core i3</option>
+                <option value="2">Intel Core i5</option>
+                <option value="3">Intel Core i7</option>
+                <option value="4">Intel Core i9</option>
+                <option value="5">AMD Ryzen 3</option>
+              </select>
+            </label>
+
+        </div>
+        <div class="container">
+          <div class="title">CPU ბირთვი</div>
+          <form action="#">
+            <div class="user-details">
+              <div class="input-box"></div>
+              <input type="text" placeholder="14" required>
+
+              <div class="container">
+                <div class="title">CPU ნაკადი</div>
+                <form action="#">
+                  <div class="user-details">
+                    <div class="input-box"></div>
+                    <input type="text" placeholder="365" required>
+
+                    <div class="container">
+                      <div class="title">ლეპტოპის RAM</div>
+                      <form action="#">
+                        <div class="user-details">
+                          <div class="input-box"></div>
+                          <input type="text" placeholder="8" required>
+                          <fieldset>
+                            <legend>მეხსიერების ტიპი</legend>
+                            <label><input id="SSD" type="radio" name="ssd-hdd" value="ssd" checked> SSD</label>
+                            <label><input id="HDD" type="radio" name="ssd-hdd" value="hdd"> HDD</label>
+                          </fieldset>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <form action="/action_page.php">
+          <label for="purchase">შეძენის რიცხვი:</label>
+          <input type="date" id="purchase" name="purchase">
+        </form>
+        <div class="container">
+          <div class="title">ლეპტოპის ფასი</div>
+          <form action="#">
+            <div class="user-details">
+              <div class="input-box"></div>
+              <input type="text" placeholder="0000">
+              <fieldset>
+                <legend>მეხსიერების ტიპი</legend>
+                <label><input id="SSD" type="radio" name="new-used" value="new" checked> ახალი</label>
+                <label><input id="HDD" type="radio" name="new-used" value="used"> ნახმარი</label>
+              </fieldset>
+
+
+
+      </section>
+      <footer>
+        <div>
+          <a href="/Bootcamp/emp_info.html">
+            <button type="button">უკან</button>
+          </a>
+        </div>
+        <div>
+          <input type="submit" value="დამახსოვრება" required>
+        </div>
+      </footer>
+  </body>
+
+</html>
